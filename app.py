@@ -41,7 +41,8 @@ def deal_cards():
     computer_cards_list.append(computer_card2)
     print_logo()
     b = "\b"*4
-    return f"""\nYour cards: : {player_cards_list}, current score: {sum(player_cards_list)}
+    return f"""\nYour cards: : {player_cards_list}, \
+current score: {sum(player_cards_list)}
     {b}Computer's first card: {computer_cards_list[0]}"""
     
 
